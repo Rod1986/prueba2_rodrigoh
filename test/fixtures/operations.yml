@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+number_one:
+  completed: false
+  worker: alfred 
+
+number_two:
+  completed: false
+  worker: alfred
+
+number_three:
+  completed: false
+  worker: alfred
