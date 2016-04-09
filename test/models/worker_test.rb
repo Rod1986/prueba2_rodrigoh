@@ -10,4 +10,5 @@ class WorkerTest < ActiveSupport::TestCase
     @w.name = nil
     assert @w.invalid?, 'a name is needed'
   end
+  
 end

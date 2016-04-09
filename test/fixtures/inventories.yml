@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  sku: MyString
-  wheelsize: 1
-  description: MyText
+wheel_one:
+  sku: abc
+  wheelsize: 10
+  description: Best wheel ever
+  operation: number_one
 
-two:
-  sku: MyString
-  wheelsize: 1
-  description: MyText
+wheel_two:
+  sku: def
+  wheelsize: 15
+  description: Worst wheel ever
+  operation: number_two

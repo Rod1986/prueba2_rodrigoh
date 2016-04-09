@@ -8,6 +8,6 @@ class OperationTest < ActiveSupport::TestCase
 
   test 'operation needs a worker' do
     assert_not_nil @o.worker, 'a worker needs to be assigned'
-    end
+  end
 
 end

@@ -5,7 +5,7 @@ number_one:
   worker: alfred 
 
 number_two:
-  completed: false
+  completed: true
   worker: alfred
 
 number_three:

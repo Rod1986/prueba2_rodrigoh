@@ -1,4 +1,5 @@
 class Inventory < ActiveRecord::Base
+  belongs_to :operation, dependent: :destroy
 
   before_save :to_downcase
 
