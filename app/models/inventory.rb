@@ -5,6 +5,7 @@ class Inventory < ActiveRecord::Base
 
   validates :sku, uniqueness: true, presence: true
 
+
   private
   
   def to_downcase

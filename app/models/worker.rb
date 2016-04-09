@@ -3,4 +3,7 @@ class Worker < ActiveRecord::Base
 
   validates :name, presence: true
 
+
+  scope :completed, -> {where(completed: true)}
+
 end
